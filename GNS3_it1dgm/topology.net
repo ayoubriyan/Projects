@@ -1,0 +1,30 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = c:\users\rayan\appdata\local\temp\GNS3_it1dgm\working
+    udp = 10001
+    [[3725]]
+        image = C:\Users\rayan\Downloads\gns\c3725-adventerprisek9-mz[1].124-15.T5.image
+        ram = 128
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        f0/1 = R2 f0/0
+        cnfg = configs\R1.cfg
+        x = -546.0
+        y = -78.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2103
+        aux = 2503
+        f0/0 = R1 f0/1
+        cnfg = configs\R2.cfg
+        x = 32.0
+        y = -74.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs

@@ -1,0 +1,98 @@
+ef is_prime(number):
+    if number < 2:
+        return False
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+
+def generate_primes(start, end):
+    primes = []
+    for num in range(start, end + 1):
+        if is_prime(num):
+            primes.append(num)
+    return primes
+
+# Example usage:
+start_range = 1
+end_range = 50
+prime_numbers = generate_primes(start_range, end_range)
+print("Prime numbers between {} and {}: {}".format(start_range, end_range, prime_numbers))
+This code defines two functions: is_prime() and generate_primes(). The is_prime() function checks if a given number is prime or not. It iterates from 2 to the square root of the number and checks for any divisors. If it finds any divisors, the number is not prime; otherwise, it is considered prime.
+
+The generate_primes() function generates a list of prime numbers within the given range (start to end). It uses the is_prime() function to check each number within the range and adds the prime numbers to the primes list.
+
+In the example usage, we set the start_range to 1 and the end_range to 50. The code will find all the prime numbers between 1 and 50 and print the result.
+
+
+
+
+User
+write a code on website
+
+ChatGPT
+Creating a fully functional website involves several components and technologies, and it's beyond the scope of a simple code snippet. However, I can provide you with a basic example of an HTML webpage that you can use as a starting point. This example includes a simple HTML structure with some common elements:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <p>Welcome to my website! This is the homepage.</p>
+    </main>
+    <footer>
+        &copy; 2023 My Website. All rights reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,999 @@
+Feb 02 19:37:10.220 VTTY: Console port: waiting connection on tcp port 2102 for protocol IPv6 (FD 22)
+Feb 02 19:37:10.220 VTTY: Console port: waiting connection on tcp port 2102 for protocol IPv4 (FD 23)
+Feb 02 19:37:10.220 VTTY: AUX port: waiting connection on tcp port 2502 for protocol IPv6 (FD 24)
+Feb 02 19:37:10.220 VTTY: AUX port: waiting connection on tcp port 2502 for protocol IPv4 (FD 25)
+Feb 02 19:37:10.520 C3600_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x0,JIT on)
+Feb 02 19:37:10.520 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Feb 02 19:37:10.635 ROM: Microcode has started.
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:10.726 ROM: unhandled syscall 0x00000017 at pc=0x604d3b80 (a1=0x00000000,a2=0x00000000,a3=0x80007e48)
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549cd0: bus=0,device=0,function=0,reg=0x08
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=0,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x0000011f) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x04
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x10
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x10000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x14
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=0,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0xc0000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x28
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0xd0000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x2c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x30
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=0,function=0,reg=0x34
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000001) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x34
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x18
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x1c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000007) at pc=0x60549e10: bus=0,device=0,function=0,reg=0x0c
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x40
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000007) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x04
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x0000f810) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x0c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00010100) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x18
+Feb 02 19:37:10.726 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 01, sub: 01
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0xffffffc0) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x1c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x4ef04e00) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x20
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x4e004ef0) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x24
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x3c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00080000) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x40
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00008020) at pc=0x60549e00: bus=0,device=2,function=0,reg=0x44
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=3,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=3,function=0,reg=0x40
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000007) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x04
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x0000f810) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x0c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00020200) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x18
+Feb 02 19:37:10.726 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 02, sub: 02
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0xffffbf80) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x1c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x4df04d00) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x20
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x4d004df0) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x24
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00000000) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x3c
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00080000) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x40
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00008020) at pc=0x60549e00: bus=0,device=3,function=0,reg=0x44
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x000001c3) at pc=0x60549e00: bus=0,device=20,function=0,reg=0x04
+Feb 02 19:37:10.726 CPU0: PCI: write request (data=0x00004403) at pc=0x60549e00: bus=0,device=20,function=0,reg=0x10
+Feb 02 19:37:10.726 ROM: unhandled syscall 0x00000017 at pc=0x604d3b80 (a1=0x00000000,a2=0x00000000,a3=0x80007e48)
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:10.726 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:10.726 ROM: unhandled syscall 0x0000003e at pc=0x604d3b80 (a1=0x631282a0,a2=0x5000232a,a3=0x80004652)
+Feb 02 19:37:10.726 ROM: unhandled syscall 0x00000047 at pc=0x604d3b80 (a1=0x0000c100,a2=0x5000232a,a3=0x80004652)
+Feb 02 19:37:10.875 CPU0: JIT: partial JIT flush (count=194)
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'BOOT'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'CONFIG_FILE'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'BOOTLDR'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'RSHELF'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'DSHELF'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'DSHELFINFO'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'RESET_COUNTER'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'CHRG_ID'
+Feb 02 19:37:10.882 ROM: trying to read bootvar 'SLOTCACHE'
+Feb 02 19:37:10.897 CPU0: JIT: flushing data structures (compiled pages=227)
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.945 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.961 bootflash: flash_cmd(0): command 0xc3 not implemented
+Feb 02 19:37:10.961 bootflash: flash_cmd(1): command 0xc3 not implemented
+Feb 02 19:37:10.961 bootflash: flash_cmd(2): command 0xc3 not implemented
+Feb 02 19:37:10.961 bootflash: flash_cmd(3): command 0xc3 not implemented
+Feb 02 19:37:10.976 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x05 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x06 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x07 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x05 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x06 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: CLPD6729: ext reg index 0x07 at pc=0x60550268
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:10.976 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.040 CPU0: PCI: read request at pc=0x60549ef4: bus=2,device=0,function=0,reg=0x00
+Feb 02 19:37:11.055 CPU0: PCI: read request at pc=0x60549ef4: bus=2,device=0,function=0,reg=0x00
+Feb 02 19:37:11.055 CPU0: PCI: write request (data=0x4d000000) at pc=0x60549e00: bus=2,device=0,function=0,reg=0x14
+Feb 02 19:37:11.055 NM-1FE-TX(0): registers are mapped at 0x4d000000
+Feb 02 19:37:11.055 CPU0: PCI: write request (data=0x00000006) at pc=0x60549e00: bus=2,device=0,function=0,reg=0x04
+Feb 02 19:37:11.055 CPU0: PCI: write request (data=0x00004000) at pc=0x60549e00: bus=2,device=0,function=0,reg=0x0c
+Feb 02 19:37:11.055 CPU0: PCI: read request at pc=0x60549ef4: bus=2,device=0,function=0,reg=0x00
+Feb 02 19:37:11.055 CPU0: PCI: write request (data=0x00004000) at pc=0x60549e00: bus=2,device=0,function=0,reg=0x0c
+Feb 02 19:37:11.055 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bd48 (size=1)
+Feb 02 19:37:11.055 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bdd4 (size=1)
+Feb 02 19:37:11.055 NM-1FE-TX(0): fetching init block at address 0x07d18760
+Feb 02 19:37:11.055 NM-1FE-TX(0): rx_ring = 0x07d187c0 (64), tx_ring = 0x07d18c00 (128)
+Feb 02 19:37:11.055 NM-1FE-TX(0): CSR0 = 0x0101
+Feb 02 19:37:11.055 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bd48 (size=1)
+Feb 02 19:37:11.055 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bdd4 (size=1)
+Feb 02 19:37:11.055 NM-1FE-TX(0): fetching init block at address 0x07d18760
+Feb 02 19:37:11.055 NM-1FE-TX(0): rx_ring = 0x07d187c0 (64), tx_ring = 0x07d18c00 (128)
+Feb 02 19:37:11.055 NM-1FE-TX(0): CSR0 = 0x0101
+Feb 02 19:37:11.055 CPU0: JIT: flushing data structures (compiled pages=228)
+Feb 02 19:37:11.055 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.071 CPU0: JIT: partial JIT flush (count=212)
+Feb 02 19:37:11.118 CPU0: JIT: flushing data structures (compiled pages=234)
+Feb 02 19:37:11.118 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bd48 (size=1)
+Feb 02 19:37:11.118 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bdd4 (size=1)
+Feb 02 19:37:11.118 NM-1FE-TX(0): fetching init block at address 0x07d18760
+Feb 02 19:37:11.118 NM-1FE-TX(0): rx_ring = 0x07d187c0 (64), tx_ring = 0x07d18c00 (128)
+Feb 02 19:37:11.118 NM-1FE-TX(0): CSR0 = 0x0101
+Feb 02 19:37:11.134 CPU0: JIT: partial JIT flush (count=204)
+Feb 02 19:37:11.166 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 19:37:11.339 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.339 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.339 CPU0: JIT: partial JIT flush (count=204)
+Feb 02 19:37:11.354 CPU0: JIT: flushing data structures (compiled pages=233)
+Feb 02 19:37:11.370 CPU0: JIT: partial JIT flush (count=207)
+Feb 02 19:37:11.386 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 19:37:11.511 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 19:37:11.558 ROM: trying to read bootvar 'PMDEBUG'
+Feb 02 19:37:11.558 ROM: trying to read bootvar 'MONDEBUG'
+Feb 02 19:37:11.558 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 19:37:11.591 ROM: unhandled syscall 0x0000001a at pc=0x604d3b80 (a1=0x00000000,a2=0x00000001,a3=0x00000001)
+Feb 02 19:37:11.591 ROM: unhandled syscall 0x00000009 at pc=0x604d3b80 (a1=0x00000000,a2=0x00000001,a3=0x00000001)
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.591 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 19:37:11.605 CPU0: JIT: partial JIT flush (count=206)
+Feb 02 19:37:11.621 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 19:37:11.637 CPU0: JIT: partial JIT flush (count=191)
+Feb 02 19:37:11.668 CPU0: JIT: flushing data structures (compiled pages=237)
+Feb 02 19:37:11.846 CPU0: JIT: partial JIT flush (count=187)
+Feb 02 19:37:11.846 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.846 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=2,function=0,reg=0x00
+Feb 02 19:37:11.862 CPU0: JIT: flushing data structures (compiled pages=234)
+Feb 02 19:37:11.911 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 19:37:11.925 CPU0: JIT: flushing data structures (compiled pages=239)
+Feb 02 19:37:11.925 ROM: trying to set bootvar 'BSI=0'
+Feb 02 19:37:11.925 ROM: trying to read bootvar 'RET_2_RUTC'
+Feb 02 19:37:11.925 ROM: trying to set bootvar 'RET_2_RUTC=0'
+Feb 02 19:37:12.915 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 19:37:31.921 CPU0: JIT: flushing data structures (compiled pages=241)
+Feb 02 19:41:06.127 VTTY: Console port is now connected (accept_fd=23,conn_fd=29)
+Feb 02 19:41:12.901 CPU0: JIT: partial JIT flush (count=136)
+Feb 02 19:42:10.952 CPU0: JIT: flushing data structures (compiled pages=239)
+Feb 02 19:43:24.060 CPU0: JIT: partial JIT flush (count=150)
+Feb 02 19:43:52.107 CPU0: JIT: flushing data structures (compiled pages=238)
+Feb 02 19:43:52.124 CPU0: JIT: partial JIT flush (count=210)
+Feb 02 20:07:27.844 VTTY: Console port is now connected (accept_fd=23,conn_fd=31)
+Feb 02 20:07:27.876 CPU0: JIT: flushing data structures (compiled pages=238)
+Feb 02 20:07:29.106 VTTY: Console port is now connected (accept_fd=23,conn_fd=32)
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:36.979 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:07:47.019 CPU0: JIT: partial JIT flush (count=174)
+Feb 02 20:08:01.204 CPU0: JIT: flushing data structures (compiled pages=240)
+Feb 02 20:08:01.219 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bd48 (size=1)
+Feb 02 20:08:01.219 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002bdd4 (size=1)
+Feb 02 20:08:01.219 NM-1FE-TX(0): fetching init block at address 0x07d18760
+Feb 02 20:08:01.219 NM-1FE-TX(0): rx_ring = 0x07d187c0 (64), tx_ring = 0x07d18c00 (128)
+Feb 02 20:08:01.219 NM-1FE-TX(0): CSR0 = 0x0101
+Feb 02 20:08:01.219 CPU0: JIT: partial JIT flush (count=212)
+Feb 02 20:08:01.238 CPU0: JIT: flushing data structures (compiled pages=238)
+Feb 02 20:08:10.695 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 20:08:15.779 CPU0: JIT: flushing data structures (compiled pages=242)
+Feb 02 20:08:15.797 CPU0: JIT: partial JIT flush (count=205)
+Feb 02 20:08:16.772 CPU0: JIT: flushing data structures (compiled pages=240)
+Feb 02 20:08:40.820 CPU0: JIT: partial JIT flush (count=171)
+Feb 02 20:08:40.820 CPU0: JIT: flushing data structures (compiled pages=240)
+Feb 02 20:08:45.513 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 20:09:10.692 CPU0: JIT: flushing data structures (compiled pages=244)
+Feb 02 20:10:10.612 CPU0: JIT: partial JIT flush (count=168)
+Feb 02 20:10:11.413 CPU0: JIT: flushing data structures (compiled pages=244)
+Feb 02 20:11:10.784 CPU0: JIT: partial JIT flush (count=171)
+Feb 02 20:11:17.593 CPU0: JIT: flushing data structures (compiled pages=245)
+Feb 02 20:12:10.797 CPU0: JIT: partial JIT flush (count=176)
+Feb 02 20:12:17.602 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 20:13:10.770 CPU0: JIT: partial JIT flush (count=175)
+Feb 02 20:13:15.439 VTTY: Console port is now connected (accept_fd=23,conn_fd=34)
+Feb 02 20:13:15.458 CPU0: JIT: flushing data structures (compiled pages=241)
+Feb 02 20:13:31.415 CPU0: JIT: partial JIT flush (count=177)
+Feb 02 20:13:40.820 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 20:13:51.402 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 20:14:06.963 CPU0: JIT: flushing data structures (compiled pages=243)
+Feb 02 20:14:10.746 CPU0: JIT: partial JIT flush (count=187)
+Feb 02 20:14:16.814 CPU0: JIT: flushing data structures (compiled pages=239)
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:16.814 CPU0: PCI: read request at pc=0x60549ef4: bus=0,device=20,function=0,reg=0x00
+Feb 02 20:14:20.810 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 20:15:10.741 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:15:25.316 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 20:16:10.723 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:16:17.927 CPU0: JIT: partial JIT flush (count=199)
+Feb 02 20:17:10.715 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:17:15.065 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 20:18:10.721 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:18:11.778 CPU0: JIT: partial JIT flush (count=205)
+Feb 02 20:19:10.679 CPU0: JIT: flushing data structures (compiled pages=248)
+Feb 02 20:19:37.268 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 20:20:10.668 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:20:33.113 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 20:21:10.653 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:21:29.401 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 20:22:10.676 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:22:25.300 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 20:23:10.652 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:23:21.518 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 20:24:10.640 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:24:19.713 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 20:25:10.633 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:25:13.653 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 20:26:10.628 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:26:38.673 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 20:27:10.622 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:27:34.478 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 20:28:10.614 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:28:28.621 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 20:29:10.616 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:29:20.805 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 20:30:10.613 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:30:16.760 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 20:31:10.605 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:31:38.547 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 20:32:10.592 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:32:33.435 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 20:33:10.592 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:33:31.613 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 20:34:10.585 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:34:25.692 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 20:35:10.603 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:35:18.531 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 20:36:10.579 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:36:13.756 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 20:37:10.569 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:37:36.525 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 20:38:10.567 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:38:27.619 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 20:39:10.552 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:39:24.663 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 20:40:10.549 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:40:20.000 CPU0: JIT: partial JIT flush (count=194)
+Feb 02 20:41:10.552 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:41:14.464 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 20:42:10.537 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:42:38.244 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 20:43:10.548 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:43:32.499 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 20:44:10.536 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:44:26.726 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 20:45:10.503 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:45:21.812 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 20:46:10.519 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:46:18.258 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 20:47:10.487 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:47:14.980 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 20:48:10.508 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:48:12.741 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 20:49:10.504 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:49:32.710 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 20:50:10.518 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:50:25.895 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 20:51:10.514 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:51:19.357 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 20:52:10.542 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:52:13.581 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 20:53:10.543 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:53:35.721 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 20:54:10.548 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:54:29.577 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 20:55:10.563 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:55:25.389 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 20:56:10.546 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:56:21.925 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 20:57:10.548 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:57:18.409 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 20:58:10.523 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:58:13.468 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 20:59:10.507 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 20:59:38.190 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 21:00:10.506 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:00:37.314 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 21:01:10.511 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:01:29.214 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 21:02:10.492 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:02:22.452 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 21:03:10.491 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:03:17.579 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 21:04:10.484 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:04:38.868 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 21:05:10.485 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:05:35.238 CPU0: JIT: partial JIT flush (count=187)
+Feb 02 21:06:10.498 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:06:29.242 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 21:07:10.507 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:07:27.877 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 21:08:10.505 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:08:23.699 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 21:09:10.512 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:09:15.203 CPU0: JIT: partial JIT flush (count=202)
+Feb 02 21:10:10.518 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:10:33.639 CPU0: JIT: partial JIT flush (count=188)
+Feb 02 21:11:10.526 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:11:29.362 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 21:12:10.523 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:12:25.073 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 21:13:10.534 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:13:23.302 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 21:14:10.515 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:14:17.832 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 21:15:10.517 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:15:15.185 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 21:16:10.513 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:16:37.376 CPU0: JIT: partial JIT flush (count=182)
+Feb 02 21:17:10.519 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:17:31.959 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 21:18:10.514 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:18:28.558 CPU0: JIT: partial JIT flush (count=190)
+Feb 02 21:19:10.497 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:19:23.837 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 21:20:10.499 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:20:20.307 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 21:21:10.497 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 21:21:14.061 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 22:09:01.534 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:09:28.382 CPU0: JIT: partial JIT flush (count=182)
+Feb 02 22:10:01.528 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:10:21.208 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 22:11:01.509 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:11:15.112 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 22:12:01.504 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:12:11.435 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 22:13:01.511 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:13:07.720 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 22:14:01.488 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:14:02.751 CPU0: JIT: partial JIT flush (count=205)
+Feb 02 22:15:01.500 CPU0: JIT: flushing data structures (compiled pages=248)
+Feb 02 22:15:28.138 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 22:16:01.491 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:16:22.829 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 22:17:01.493 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:17:16.342 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 22:18:01.503 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:18:13.047 CPU0: JIT: partial JIT flush (count=194)
+Feb 02 22:19:01.506 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:19:07.945 CPU0: JIT: partial JIT flush (count=199)
+Feb 02 22:20:01.511 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:20:30.928 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 22:21:01.509 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:21:24.217 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 22:22:01.520 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:22:24.047 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 22:23:01.510 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:23:18.129 CPU0: JIT: partial JIT flush (count=191)
+Feb 02 22:24:01.524 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:24:13.556 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 22:25:01.511 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:25:11.847 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 22:26:01.505 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:26:05.390 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 22:27:01.510 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:27:27.901 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 22:28:01.480 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 22:28:23.626 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 22:29:01.477 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 22:29:18.567 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 22:30:01.457 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:30:13.256 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 22:31:01.461 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:31:07.672 CPU0: JIT: partial JIT flush (count=199)
+Feb 02 22:32:01.478 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:32:29.040 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 22:33:01.470 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:33:25.704 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 22:34:01.475 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:34:23.010 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 22:35:01.475 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 22:35:16.891 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 22:36:01.476 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:36:12.156 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 22:37:01.485 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:37:10.797 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 22:38:01.476 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:38:08.899 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 22:39:01.496 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:39:07.253 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 22:40:01.489 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:40:03.977 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 22:41:01.488 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 22:41:29.566 CPU0: JIT: partial JIT flush (count=181)
+Feb 02 22:42:01.493 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 22:42:29.201 CPU0: JIT: partial JIT flush (count=182)
+Feb 02 23:11:19.575 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:11:35.300 CPU0: JIT: partial JIT flush (count=186)
+Feb 02 23:12:12.050 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:12:32.157 CPU0: JIT: partial JIT flush (count=191)
+Feb 02 23:13:12.039 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:13:25.510 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 23:14:12.034 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:14:17.888 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 23:15:12.055 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:15:37.470 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 23:16:12.023 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:16:35.147 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 23:17:11.999 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:17:30.041 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 23:18:11.976 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:18:23.672 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:19:12.001 CPU0: JIT: flushing data structures (compiled pages=246)
+Feb 02 23:19:21.414 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:20:11.987 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:20:17.318 CPU0: JIT: partial JIT flush (count=200)
+Feb 02 23:21:11.984 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:21:40.295 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 23:22:11.961 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:22:38.229 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 23:23:11.974 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:23:32.702 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 23:24:11.960 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:24:30.941 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 23:25:11.949 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:25:25.087 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 23:26:11.947 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:26:20.836 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:27:11.952 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:27:14.910 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 23:28:11.948 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:28:39.050 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 23:29:11.949 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:29:36.910 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 23:30:11.940 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:30:35.065 CPU0: JIT: partial JIT flush (count=188)
+Feb 02 23:31:11.936 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:31:30.870 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 23:32:11.922 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:32:27.394 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 23:33:11.906 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:33:26.885 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 23:34:11.888 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:34:22.607 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 23:35:11.895 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:35:18.575 CPU0: JIT: partial JIT flush (count=195)
+Feb 02 23:36:11.888 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:36:14.920 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 23:37:11.866 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:37:38.607 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 23:38:11.839 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:38:34.796 CPU0: JIT: partial JIT flush (count=189)
+Feb 02 23:39:11.851 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:39:30.150 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 23:40:11.856 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:40:27.649 CPU0: JIT: partial JIT flush (count=194)
+Feb 02 23:41:11.864 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:41:23.015 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:42:11.862 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:42:18.166 CPU0: JIT: partial JIT flush (count=199)
+Feb 02 23:43:11.860 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:43:13.304 CPU0: JIT: partial JIT flush (count=205)
+Feb 02 23:44:11.839 CPU0: JIT: flushing data structures (compiled pages=248)
+Feb 02 23:44:35.808 CPU0: JIT: partial JIT flush (count=188)
+Feb 02 23:45:11.863 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:45:30.513 CPU0: JIT: partial JIT flush (count=192)
+Feb 02 23:46:11.868 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:46:24.239 CPU0: JIT: partial JIT flush (count=196)
+Feb 02 23:47:11.867 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:47:22.221 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:48:11.868 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:48:16.348 CPU0: JIT: partial JIT flush (count=201)
+Feb 02 23:49:11.848 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:49:13.304 CPU0: JIT: partial JIT flush (count=205)
+Feb 02 23:50:11.848 CPU0: JIT: flushing data structures (compiled pages=248)
+Feb 02 23:50:40.535 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 23:51:11.846 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:51:39.250 CPU0: JIT: partial JIT flush (count=184)
+Feb 02 23:52:11.844 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:52:38.012 CPU0: JIT: partial JIT flush (count=185)
+Feb 02 23:53:11.841 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:53:34.244 CPU0: JIT: partial JIT flush (count=188)
+Feb 02 23:54:11.830 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:54:29.810 CPU0: JIT: partial JIT flush (count=193)
+Feb 02 23:55:11.795 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:55:22.986 CPU0: JIT: partial JIT flush (count=197)
+Feb 02 23:56:11.797 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:56:20.914 CPU0: JIT: partial JIT flush (count=198)
+Feb 02 23:57:11.768 CPU0: JIT: flushing data structures (compiled pages=247)
+Feb 02 23:57:19.202 CPU0: JIT: partial JIT flush (count=199)
+Feb 02 23:57:53.945 C3600_STOP: stopping simulation.
+Feb 02 23:57:53.945 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Feb 02 23:57:53.961 VM: shutdown procedure engaged.
+Feb 02 23:57:53.961 VM_OBJECT: Shutdown of object "clpd6729"
+Feb 02 23:57:53.961 VM_OBJECT: Shutdown of object "ns16552"
+Feb 02 23:57:53.961 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.961 VM_OBJECT: Shutdown of object "rom"
+Feb 02 23:57:53.961 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
+Feb 02 23:57:53.961 VM_OBJECT: Shutdown of object "ram"
+Feb 02 23:57:53.961 DEVICE: Removal of device ram, fd=21, host_addr=0xf50b0000, flags=50
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "gt64010"
+Feb 02 23:57:53.968 DEVICE: Removal of device gt64010, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "io_fpga"
+Feb 02 23:57:53.968 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "zero"
+Feb 02 23:57:53.968 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "nvram"
+Feb 02 23:57:53.968 DEVICE: Removal of device nvram, fd=27, host_addr=0xf2930000, flags=9
+Feb 02 23:57:53.968 MMAP: unmapping of device 'nvram', fd=27, host_addr=0xf2930000, len=0x20000
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "bootflash"
+Feb 02 23:57:53.968 DEVICE: Removal of device bootflash, fd=26, host_addr=0xf2950000, flags=1
+Feb 02 23:57:53.968 MMAP: unmapping of device 'bootflash', fd=26, host_addr=0xf2950000, len=0x800000
+Feb 02 23:57:53.968 VM_OBJECT: Shutdown of object "remote_ctrl"
+Feb 02 23:57:53.968 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.968 VM: removing PCI busses.
+Feb 02 23:57:53.968 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
+Feb 02 23:57:53.968 VM: deleting VTTY.
+Feb 02 23:57:53.968 VTTY: Console port: closing FD 22
+Feb 02 23:57:53.968 VTTY: Console port: closing FD 23
+Feb 02 23:57:53.968 VTTY: AUX port: closing FD 24
+Feb 02 23:57:53.968 VTTY: AUX port: closing FD 25
+Feb 02 23:57:53.968 VM: deleting system CPUs.
+Feb 02 23:57:53.968 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Feb 02 23:57:53.972 VM: shutdown procedure completed.

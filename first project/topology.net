@@ -1,0 +1,87 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = C:\Users\rayan\AppData\Local\Temp
+    udp = 10001
+[127.0.0.1:7201]
+    workingdir = C:\Users\rayan\AppData\Local\Temp
+    udp = 10101
+    [[3725]]
+        image = C:\Users\rayan\Downloads\gns\c3725-adventerprisek9-mz[1].124-15.T5.image
+        ram = 128
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R5]]
+        model = 3725
+        console = 2106
+        aux = 2506
+        cnfg = configs\R5.cfg
+        f0/0 = R6 f0/0
+        x = -598.0
+        y = -216.0
+        z = 1.0
+    [[ROUTER R6]]
+        model = 3725
+        console = 2107
+        aux = 2507
+        cnfg = configs\R6.cfg
+        f0/0 = R5 f0/0
+        f0/1 = R7 f0/0
+        slot1 = NM-1FE-TX
+        x = -243.0
+        y = -195.0
+        z = 1.0
+    [[ROUTER R7]]
+        model = 3725
+        console = 2108
+        aux = 2508
+        cnfg = configs\R7.cfg
+        f0/0 = R6 f0/1
+        f0/1 = R8 f0/0
+        slot1 = NM-1FE-TX
+        x = 31.0
+        y = -188.0
+        z = 1.0
+    [[ROUTER R8]]
+        model = 3725
+        console = 2109
+        aux = 2509
+        cnfg = configs\R8.cfg
+        f0/0 = R7 f0/1
+        x = 323.0
+        y = -162.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    m11 = 1.0
+    m22 = 1.0
+    [[NOTE 1]]
+        text = "f0/0"
+        x = -38.9991621633
+        y = 44.2588942535
+        interface = R8 f0/0
+    [[NOTE 2]]
+        text = "f0/1"
+        x = 72.9991621633
+        y = 21.7411057465
+        interface = R7 f0/1
+    [[NOTE 3]]
+        text = "f0/0"
+        x = -28.9608011665
+        y = 45.2295847584
+        interface = R7 f0/0
+    [[NOTE 4]]
+        text = "f0/1"
+        x = 72.9608011665
+        y = 23.7704152416
+        interface = R6 f0/1
+    [[NOTE 5]]
+        text = "f0/0"
+        x = -48.960047281
+        y = 44.2126496424
+        interface = R6 f0/0
+    [[NOTE 6]]
+        text = "f0/0"
+        x = 72.960047281
+        y = 23.7873503576
+        interface = R5 f0/0

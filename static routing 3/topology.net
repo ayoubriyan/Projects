@@ -1,0 +1,171 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3725]]
+        image = C:\Users\rayan\Downloads\gns\c3725-adventerprisek9-mz[1].124-15.T5.image
+        ram = 128
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R4]]
+        model = 3725
+        console = 2117
+        aux = 2517
+        cnfg = configs\R4.cfg
+        f0/0 = R5 f0/1
+        f0/1 = R3 f0/1
+        slot1 = NM-1FE-TX
+        f1/0 = R6 f0/0
+        x = 476.0
+        y = 21.0
+        z = 1.0
+    [[ROUTER R1]]
+        model = 3725
+        console = 2114
+        aux = 2514
+        cnfg = configs\R1.cfg
+        f0/0 = R2 f0/0
+        slot1 = NM-1FE-TX
+        x = -603.0
+        y = 6.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2115
+        aux = 2515
+        cnfg = configs\R2.cfg
+        f0/0 = R1 f0/0
+        f0/1 = R3 f0/0
+        slot1 = NM-1FE-TX
+        f1/0 = R5 f0/0
+        x = -270.0
+        y = 9.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3725
+        console = 2116
+        aux = 2516
+        cnfg = configs\R3.cfg
+        f0/0 = R2 f0/1
+        f0/1 = R4 f0/1
+        slot1 = NM-1FE-TX
+        x = 72.0
+        y = -159.0
+        z = 1.0
+[127.0.0.1:7201]
+    workingdir = working
+    udp = 10101
+    [[3725]]
+        image = C:\Users\rayan\Downloads\gns\c3725-adventerprisek9-mz[1].124-15.T5.image
+        ram = 128
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R5]]
+        model = 3725
+        console = 2118
+        aux = 2518
+        cnfg = configs\R5.cfg
+        f0/0 = R2 f1/0
+        f0/1 = R4 f0/0
+        slot1 = NM-1FE-TX
+        x = 110.0
+        y = 214.0
+        z = 1.0
+    [[ROUTER R6]]
+        model = 3725
+        console = 2119
+        aux = 2519
+        cnfg = configs\R6.cfg
+        f0/0 = R4 f1/0
+        slot1 = NM-1FE-TX
+        x = 818.0
+        y = 45.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "23.0.0.0"
+        x = -123.0
+        y = -108.5
+    [[NOTE 2]]
+        text = "34.00.0"
+        x = 305.0
+        y = -113.5
+    [[NOTE 3]]
+        text = "12.0.0.0"
+        x = -477.0
+        y = -29.5
+    [[NOTE 4]]
+        text = "46.0.00\n"
+        x = 630.0
+        y = 0.5
+    [[NOTE 5]]
+        text = "25.0.00"
+        x = -179.0
+        y = 136.5
+    [[NOTE 6]]
+        text = "54.0.0.0"
+        x = 348.0
+        y = 185.5
+    [[NOTE 7]]
+        text = "f0/0"
+        x = -2.9021730575
+        y = 39.6361551861
+        interface = R3 f0/0
+    [[NOTE 8]]
+        text = "f0/1"
+        x = 69.5375286901
+        y = 38.2790969411
+        interface = R3 f0/1
+    [[NOTE 9]]
+        text = "f0/1"
+        x = 68.9021730575
+        y = 4.36384481386
+        interface = R2 f0/1
+    [[NOTE 10]]
+        text = "f0/0"
+        x = -6.99837685394
+        y = 21.6396542626
+        interface = R2 f0/0
+    [[NOTE 11]]
+        text = "f1/0"
+        x = 68.2039594491
+        y = 40.9916097028
+        interface = R2 f1/0
+    [[NOTE 12]]
+        text = "f0/0"
+        x = 72.9983768539
+        y = 22.3603457374
+        interface = R1 f0/0
+    [[NOTE 13]]
+        text = "f0/0"
+        x = -6.90187044402
+        y = 19.1998687408
+        interface = R6 f0/0
+    [[NOTE 14]]
+        text = "f0/0"
+        x = -2.20395944913
+        y = 3.00839029718
+        interface = R5 f0/0
+    [[NOTE 15]]
+        text = "f0/1"
+        x = 68.3820388259
+        y = 3.34225821477
+        interface = R5 f0/1
+    [[NOTE 16]]
+        text = "f1/0"
+        x = 72.901870444
+        y = 24.8001312592
+        interface = R4 f1/0
+    [[NOTE 17]]
+        text = "f0/1"
+        x = -3.53752869011
+        y = 5.72090305886
+        interface = R4 f0/1
+    [[NOTE 18]]
+        text = "f0/0"
+        x = -2.38203882587
+        y = 40.6577417852
+        interface = R4 f0/0

@@ -1,0 +1,40 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = C:\Users\rayan\AppData\Local\Temp
+    udp = 10001
+    [[3725]]
+        image = C:\Users\rayan\Downloads\gns\c3725-adventerprisek9-mz[1].124-15.T5.image
+        ram = 128
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 3725
+        console = 2101
+        aux = 2501
+        f0/0 = R2 f0/1
+        cnfg = configs\R1.cfg
+        x = -657.0
+        y = -63.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        f0/1 = R1 f0/0
+        cnfg = configs\R2.cfg
+        x = -117.0
+        y = -76.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    [[NOTE 1]]
+        text = "f0/1"
+        x = -6.98841381508
+        y = 22.9626840363
+        interface = R2 f0/1
+    [[NOTE 2]]
+        text = "f0/0"
+        x = 72.9884138151
+        y = 21.0373159637
+        interface = R1 f0/0
